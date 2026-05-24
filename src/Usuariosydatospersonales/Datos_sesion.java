@@ -1,4 +1,4 @@
-package Usuarios.y.datos.personales;
+package Usuariosydatospersonales;
 
 import java.util.ArrayList;
 

@@ -1,12 +1,12 @@
 package Util;
 
-import Comunicación.del.progreso.EnvioNotificaiones;
-import Comunicación.del.progreso.VisualizacionProgreso;
-import Nivel.membresías.y.pagos.membresias;
-import Rutinas.e.historial.fisico.AjustarNivelRutina;
-import Rutinas.e.historial.fisico.HistorialProgresoFisico;
-import Usuarios.y.datos.personales.Datos_fisicos;
-import Usuarios.y.datos.personales.Datos_sesion;
+import Comunicacióndelprogreso.EnvioNotificaiones;
+import Comunicacióndelprogreso.VisualizacionProgreso;
+import Nivelmembresíasypagos.membresias;
+import Rutinasehistorialfisico.AjustarNivelRutina;
+import Rutinasehistorialfisico.HistorialProgresoFisico;
+import Usuariosydatospersonales.Datos_fisicos;
+import Usuariosydatospersonales.Datos_sesion;
 
 import javax.swing.*;
 

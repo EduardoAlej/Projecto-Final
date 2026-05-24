@@ -1,4 +1,4 @@
-package Rutinas.e.historial.fisico;
+package Rutinasehistorialfisico;
 
 public class EjercicioRutina {
     private String nombreRutina;

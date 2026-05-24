@@ -1,8 +1,8 @@
-package Rutinas.e.historial.fisico;
+package Rutinasehistorialfisico;
 
-import Nivel.membresías.y.pagos.membresias;
-import Usuarios.y.datos.personales.Datos_fisicos;
-import Usuarios.y.datos.personales.Datos_sesion;
+import Nivelmembresíasypagos.membresias;
+import Usuariosydatospersonales.Datos_fisicos;
+import Usuariosydatospersonales.Datos_sesion;
 
 import java.util.ArrayList;
 

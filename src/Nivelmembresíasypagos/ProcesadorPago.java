@@ -1,4 +1,4 @@
-package Nivel.membresías.y.pagos;
+package Nivelmembresíasypagos;
 
 import java.util.Scanner;
 

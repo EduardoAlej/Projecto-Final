@@ -1,6 +1,6 @@
-package Rutinas.e.historial.fisico;
+package Rutinasehistorialfisico;
 
-import Usuarios.y.datos.personales.Datos_sesion;
+import Usuariosydatospersonales.Datos_sesion;
 
 import java.util.ArrayList;
 
