@@ -1,4 +1,4 @@
-package Usuariosydatospersonales;
+package Negocio.Usuariosydatospersonales;
 
 public class Datos_fisicos {
     private float altura;

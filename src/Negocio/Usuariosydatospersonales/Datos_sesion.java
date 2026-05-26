@@ -1,4 +1,4 @@
-package Usuariosydatospersonales;
+package Negocio.Usuariosydatospersonales;
 
 import java.util.ArrayList;
 

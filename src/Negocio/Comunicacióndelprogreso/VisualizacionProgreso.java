@@ -1,7 +1,7 @@
-package Comunicacióndelprogreso;
+package Negocio.Comunicacióndelprogreso;
 
-import Usuariosydatospersonales.Datos_fisicos;
-import Usuariosydatospersonales.Datos_sesion;
+import Negocio.Usuariosydatospersonales.Datos_fisicos;
+import Negocio.Usuariosydatospersonales.Datos_sesion;
 
 public class VisualizacionProgreso {
 

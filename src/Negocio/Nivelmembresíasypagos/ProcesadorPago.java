@@ -1,14 +1,13 @@
-package Nivelmembresíasypagos;
+package Negocio.Nivelmembresíasypagos;
 
 import java.util.Scanner;
 
 public class ProcesadorPago {
 
     public ProcesadorPago() {
-        // Constructor vacío
     }
 
-    // Método principal de la pasarela de pago
+
     public boolean procesarTransaccion(double monto) {
         if (monto <= 0) {
             System.out.println("El monto es $0.00. No se requiere tarjeta.");
@@ -28,7 +27,7 @@ public class ProcesadorPago {
         System.out.print("Ingrese el código de seguridad (CVV): ");
         String cvv = scanner.nextLine();
 
-        // Validación básica simulada
+
         if (numeroTarjeta.length() >= 16 && cvv.length() >= 3) {
             System.out.println("\n[!] Procesando pago...");
             System.out.println("[!] Transacción aprobada. Pago de $" + monto + " recibido.");

@@ -1,6 +1,6 @@
-package Rutinasehistorialfisico;
+package Negocio.Rutinasehistorialfisico;
 
-import Usuariosydatospersonales.Datos_sesion;
+import Negocio.Usuariosydatospersonales.Datos_sesion;
 
 import java.util.ArrayList;
 

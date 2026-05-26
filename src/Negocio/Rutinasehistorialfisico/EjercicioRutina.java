@@ -1,4 +1,4 @@
-package Rutinasehistorialfisico;
+package Negocio.Rutinasehistorialfisico;
 
 public class EjercicioRutina {
     private String nombreRutina;

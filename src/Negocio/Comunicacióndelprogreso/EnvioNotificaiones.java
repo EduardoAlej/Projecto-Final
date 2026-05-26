@@ -1,8 +1,8 @@
-package Comunicacióndelprogreso;
+package Negocio.Comunicacióndelprogreso;
 
-import Usuariosydatospersonales.Datos_sesion;
-import Rutinasehistorialfisico.AjustarNivelRutina;
-import Nivelmembresíasypagos.membresias;
+import Negocio.Usuariosydatospersonales.Datos_sesion;
+import Negocio.Rutinasehistorialfisico.AjustarNivelRutina;
+import Negocio.Nivelmembresíasypagos.membresias;
 
 public class EnvioNotificaiones {
 
