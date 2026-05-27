@@ -29,11 +29,11 @@ public class ProcesadorPago {
 
 
         if (numeroTarjeta.length() >= 16 && cvv.length() >= 3) {
-            System.out.println("\n[!] Procesando pago...");
-            System.out.println("[!] Transacción aprobada. Pago de $" + monto + " recibido.");
+            System.out.println("\n Procesando pago...");
+            System.out.println(" Transacción aprobada. Pago de $" + monto + " recibido.");
             return true;
         } else {
-            System.out.println("\n[X] Transacción rechazada. Verifique los datos de su tarjeta e intente nuevamente.");
+            System.out.println("\n Transacción rechazada. Verifique los datos de su tarjeta e intente nuevamente.");
             return false;
         }
     }

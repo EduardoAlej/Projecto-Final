@@ -37,10 +37,10 @@ public class membresias {
             if (opcion == 1) {
                 tipoMembresiaActual = "Gratuita";
                 costoActual = 0.0;
-                System.out.println("\n[!] Has seleccionado el Plan Gratuito. Funciones básicas habilitadas.");
+                System.out.println("\nHas seleccionado el Plan Gratuito. Funciones básicas habilitadas.");
             }
             else if (opcion == 2) {
-                System.out.println("\n[!] Has seleccionado el Plan Premium.");
+                System.out.println("\n Has seleccionado el Plan Premium.");
                 System.out.println("Procesando transición al módulo de pagos...");
 
 
@@ -53,16 +53,16 @@ public class membresias {
                 if (pagoExitoso) {
                     tipoMembresiaActual = "Premium";
                     costoActual = 21.90;
-                    System.out.println("\n[!] Bienvenido a GymBro Premium. Todos los beneficios están activados.");
+                    System.out.println("\nBienvenido a GymBro Premium. Todos los beneficios están activados.");
                 } else {
-                    System.out.println("\n[X] No se pudo activar el plan Premium. Manteniendo plan Gratuito.");
+                    System.out.println("\n No se pudo activar el plan Premium. Manteniendo plan Gratuito.");
                 }
             }
             else {
-                System.out.println("\n[X] Opción inválida. Manteniendo plan actual: " + tipoMembresiaActual);
+                System.out.println("\n Opción inválida. Manteniendo plan actual: " + tipoMembresiaActual);
             }
         } catch (NumberFormatException e) {
-            System.out.println("\n[X] Error: Entrada no válida. Debe ingresar un número.");
+            System.out.println("\nError: Entrada no válida. Debe ingresar un número.");
         }
     }
 
