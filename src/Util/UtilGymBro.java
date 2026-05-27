@@ -27,10 +27,6 @@ public class UtilGymBro {
         envioNotificaiones = new EnvioNotificaiones();
         visualizacionProgreso = new VisualizacionProgreso();
     }
-
-    // =========================
-    // MENU PRINCIPAL
-    // =========================
     public void iniciarSistema() {
         int opcion;
 
@@ -94,9 +90,6 @@ public class UtilGymBro {
         } while (opcion != 0);
     }
 
-    // =========================
-    // USUARIO Y SESION
-    // =========================
     public String registrarUsuario(String email, String contrasena, String nombre) {
         return sesion.registrar(email, contrasena, nombre);
     }
@@ -130,9 +123,6 @@ public class UtilGymBro {
         return sesion.getNombreActual();
     }
 
-    // =========================
-    // MEMBRESIA
-    // =========================
     public void seleccionarMembresia() {
         membresia.seleccionarMembresia();
     }
@@ -149,9 +139,6 @@ public class UtilGymBro {
         return membresia.getCostoActual();
     }
 
-    // =========================
-    // RUTINAS
-    // =========================
     public String generarRutina(String zona) {
         return ajustarNivelRutina.generarRutina(sesion, membresia, zona);
     }
@@ -173,10 +160,6 @@ public class UtilGymBro {
                 observaciones
         );
     }
-
-    // =========================
-    // HISTORIAL
-    // =========================
     public String registrarHistorial(String fecha, boolean cumplioObjetivo) {
         return historialProgresoFisico.registrarHistorial(
                 sesion,
@@ -195,9 +178,6 @@ public class UtilGymBro {
         historialProgresoFisico.mostrarHistorialUsuario(sesion.getEmailActual());
     }
 
-    // =========================
-    // VISUALIZACION DEL PROGRESO
-    // =========================
     public void mostrarResumenProgreso() {
         visualizacionProgreso.mostrarResumen(sesion);
     }
@@ -210,9 +190,6 @@ public class UtilGymBro {
         visualizacionProgreso.mostrarAlerta(observacion);
     }
 
-    // =========================
-    // NOTIFICACIONES
-    // =========================
     public void enviarRecordatorio() {
         envioNotificaiones.enviarRecordatorio(sesion);
     }
@@ -225,9 +202,6 @@ public class UtilGymBro {
         envioNotificaiones.enviarMensajePremium(sesion, membresia);
     }
 
-    // =========================
-    // MENUS INTERNOS
-    // =========================
     private void menuRegistrarUsuario() {
         String email = pedirTexto("Ingrese el email:");
         String contrasena = pedirTexto("Ingrese la contrasena:");
@@ -337,9 +311,6 @@ public class UtilGymBro {
         enviarMensajePremium();
     }
 
-    // =========================
-    // VALIDACIONES
-    // =========================
     private boolean validarSesionActiva() {
         if (!haySesionActiva()) {
             JOptionPane.showMessageDialog(null,
